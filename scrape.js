@@ -20,7 +20,7 @@ async function scraper() {
     await driver.get(targetUrl);
 
     const html = await driver.findElement(By.className("question-body"));
-    console.log(html);
+    console.log(html.getText());
   } catch (error) {
     // handle error
     console.error("An error occurred:", error);
