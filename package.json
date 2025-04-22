@@ -1,0 +1,17 @@
+{
+  "name": "exam-topic-scraping-word",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.31.0"
+  }
+}
